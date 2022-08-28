@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <style type="text/css">
+        .menu {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+        input:checked+span {
+            background: rgb(179, 255, 204);
+        }
+
+        a {
+            text-decoration: none;
+            /* Убирает подчеркивание для ссылок */
+        }
+
+        a:hover {
+            text-decoration: underline;
+            /* Добавляем подчеркивание при наведении курсора на ссылку */
+            color: rgb(255, 153, 0);
+            /* Цвет ссылки */
+        }
+
+        .hobby:checked+span {
+            background: rgb(255, 255, 179);
+        }
+
+        .choose {
+            margin-top: 10px;
+        }
+
+        footer {
+            font-size: 20px;
+            /*margin-top: 1000px;*/
+            position: fixed;
+            /* Фиксированное положение */
+            left: 0;
+            bottom: 0;
+            /* Левый нижний угол */
+            padding: 10px;
+            /* Поля вокруг текста */
+            width: 100%;
+            /* Ширина слоя */
+            font-size: 100%;
+            font-family: sans-serif;
+            /*color: #4682B4;*/
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <center>
+        <h1>Контакты</h1>
+    </center>
+
+    <h3>Фрма регистрации</h3>
+    <form action="#">
+        Ваше имя <input type="text" placeholder="Ваше имя"><br>
+        Пароль <input type="password" placeholder="Пароль"><br>
+        Ваш пол<br>
+        <input type="radio" name="pol" checked><span>Муж.</span><br>
+        <input type="radio" name="pol"><span>Жен.</span><br>
+        Какого производства смартфон вы предпочитаете: <br>
+        <input class="hobby" type="checkbox" name="a1"><span>Apple</span><br>
+        <input class="hobby" type="checkbox" name="a2"><span>Samsung</span><br>
+        <input class="hobby" type="checkbox" name="a2"><span>HONOR</span><br>
+        <input class="hobby" type="checkbox" name="a3"><span>HUAWEI</span><br>
+        <input class="hobby" type="checkbox" name="a4"><span>Sony</span><br>
+        <input class="choose" type="submit" value="Отправить данные"><br>
+        <input class="choose" type="reset" value="Сбросить данные"><br>
+    </form>
+    <ul class="menu">
+        <li> <a href="index.html">Главная</a><br></li>
+        <li><a href="catalog/phone.html">Каталог</a></li>
+    </ul>
+</body>
+<footer>
+    <center>
+        <p class="copy">Все права защищены &copy; 2022</p>
+    </center>
+</footer>
+
+
+
+</html>

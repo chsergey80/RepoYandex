@@ -6,5 +6,19 @@
 </head>
 <body>
     <button>Like</button>
+    
+    $ composer require arhitector/yandex dev-master
+    $disk = new Arhitector\Yandex\Disk($client); // тут  указать access token
+    $dir = $disk->getResource('/'); // путь к папке на диске
+
+    foreach ($dir->items as $item)
+    {
+      if ( ! $item->isFile())
+      {
+        continue;
+      }
+      // URL, если файл открыт или ссылка на Doc viewer
+      echo '<a href="'.$item->get('public_url', $item->docviewer).'">'.$item->name.'</a><br />';
+    }
 </body>
 </html>

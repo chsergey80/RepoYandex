@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <style type="text/css">
+        input:checked+span {
+            background: rgb(179, 255, 204);
+        }
+        h3 {
+            
+        }
+        .hobby:checked+span {
+            background: rgb(255, 255, 179);
+        }
+
+        .button {
+            margin-top: 15px;
+            font-weight: 600;
+
+        }
+
+        .chose {
+            margin-top: 15px;
+            font-weight: 100;
+            color: red;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li> <a href="index.html">Главная</a><br></li>
+        <li><a href="catalog/phone.html">Каталог</a></li>
+    </ul>
+    <h1>Контакты</h1>
+    
+    <h3>Фрма регистрации</h3>
+    <form action="#">
+        Ваше имя <input type="text" placeholder="Ваше имя"><br>
+        Пароль <input type="password" placeholder="Пароль"><br>
+        Ваш пол<br>
+        <input type="radio" name="pol" checked><span>Муж.</span><br>
+        <input type="radio" name="pol"><span>Жен.</span><br>
+        Ваши увлечения <br>
+        <input class="hobby" type="checkbox" name="a1"><span>Компьютерная графика</span><br>
+        <input class="hobby" type="checkbox" name="a2"><span>Python</span><br>
+        <input class="hobby" type="checkbox" name="a2"><span>HTML</span><br>
+        <input class="hobby" type="checkbox" name="a3"><span>CSS</span><br>
+        <input class="hobby" type="checkbox" name="a4"><span>Java Script</span><br>
+        <input class="button" type="submit" value="Отправить данные"><br>
+        <input class="chose" type="reset" value="Сбросить данные"><br>
+    </form>
+
+</body>
+
+</html>
