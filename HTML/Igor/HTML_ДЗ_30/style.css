@@ -1,0 +1,59 @@
+body {
+    background-color: #f8f8f8;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.h1-main {
+    background: rgba(122, 178, 226, 0.41);
+    border: 2px solid white;
+    margin: 0px 35px;
+    color: black;
+    margin-top: -5px;
+
+}
+
+img[alt="logo"] {
+    float: left;
+    width: 170.4px;
+    height: 129px;
+    margin-right: 25px;
+}
+
+.effect {
+    text-shadow: 5px 5px 4px #695f5f;
+
+}
+}
+
+.h2-main {
+    border: 3px solid red;
+    margin-top: 200px;
+}
+
+.menu-link {
+    border: 0px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 200px;
+
+
+}
+
+.menu-link:hover {
+    background: #1e99be;
+}
+
+.menu-list {
+    width: 100%;
+    margin-top: -15px;
+    margin-bottom: 5px;
+
+}

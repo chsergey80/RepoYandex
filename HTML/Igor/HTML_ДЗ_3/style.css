@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f8f8;
+    background-color: rgba(164, 199, 227, 0.35);
 }
 
 h1,
@@ -9,10 +9,11 @@ h2 {
 
 .h1-main {
     background: rgba(122, 178, 226, 0.41);
-    border: 2px solid white;
+    border: 2px solid rgba(204, 204, 204, 0);
+    box-shadow: 15px 10px 10px rgba(61, 108, 185, 0.93);
     margin: 0px 35px;
     color: black;
-    margin-top: -5px;
+    margin-top: -1px;
 
 }
 
@@ -25,13 +26,9 @@ img[alt="logo"] {
 
 .effect {
     text-shadow: 5px 5px 4px #695f5f;
+    font-size: 35px;
+    margin-bottom: 29.5px;
 
-}
-}
-
-.h2-main {
-    border: 3px solid red;
-    margin-top: 200px;
 }
 
 .menu-link {
@@ -43,8 +40,6 @@ img[alt="logo"] {
     font-size: 18px;
     font-weight: 600;
     margin-right: 200px;
-
-
 }
 
 .menu-link:hover {
@@ -54,6 +49,67 @@ img[alt="logo"] {
 .menu-list {
     width: 100%;
     margin-top: -15px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 
+}
+
+img[alt="Mobiles store"] {
+    width: 900px;
+    height: 600px;
+    display: block;
+    margin: 2px 15px 15px;
+}
+
+.card-one {
+    background: rgba(122, 178, 226, 0.41);
+    box-shadow: 15px 10px 10px rgba(61, 108, 185, 0.93);
+    margin: 35px 35px;
+    border: 0px solid;
+    display: block;
+    width: 930px;
+    padding-top: 15px;
+    float: left;
+}
+
+.card-one:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-two {
+    background: rgba(122, 178, 226, 0.41);
+    box-shadow: 15px 10px 10px rgba(61, 108, 185, 0.93);
+    margin: 135px 35px;
+    border: 0px solid;
+    display: block;
+    width: 930px;
+    padding-top: 15px;
+    float: left;
+}
+
+.card-two:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-three {
+    background: rgba(122, 178, 226, 0.41);
+    box-shadow: 15px 10px 10px rgba(61, 108, 185, 0.93);
+    margin: 235px 35px;
+    border: 0px solid;
+    display: block;
+    width: 930px;
+    padding-top: 15px;
+    float: left;
+}
+
+.card-three:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+    border: 0px solid red;
+    display: block;
+    width: 900px;
+    height: 170px;
+    text-align: justify;
+    margin: 10px 10px 10px 14px;
+    font-size: 19px;
 }
