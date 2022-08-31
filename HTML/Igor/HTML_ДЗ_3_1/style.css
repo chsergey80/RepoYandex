@@ -1,0 +1,154 @@
+body {
+    background-color: rgba(164, 199, 227, 0.35);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.h1-main {
+    background: rgba(122, 178, 226, 0.41);
+    border: 2px solid rgba(204, 204, 204, 0);
+    box-shadow: 15px 10px 10px rgba(61, 108, 185, 0.93);
+    margin: 0px 35px;
+    color: black;
+    margin-top: -1px;
+
+}
+
+img[alt="logo"] {
+    float: left;
+    width: 170.4px;
+    height: 129px;
+    margin-right: 25px;
+}
+
+
+.effect {
+    text-shadow: 5px 5px 4px #695f5f;
+    font-size: 35px;
+    margin-bottom: 29.5px;
+
+}
+
+.menu-link {
+    border: 0px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 200px;
+    transition: 1s;
+}
+
+.menu-link:hover {
+    background: #1e99be;
+    font-size: 22px;
+
+}
+
+.menu-list {
+    width: 100%;
+    margin-top: -15px;
+    margin-bottom: 2px;
+
+}
+
+img[alt="Mobiles store"] {
+    width: 530px;
+    height: 353.33px;
+    display: block;
+    margin: 2px 15px 15px;
+}
+
+.card {
+    background: rgba(122, 178, 226, 0.41);
+    box-shadow: 15px 10px 10px rgba(61, 108, 185, 0.93);
+    margin: 35px 35px;
+    border: 0px solid;
+    display: block;
+    width: 560px;
+    padding-top: 15px;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img[alt="our store"] {
+    width: 860px;
+    height: 573.33px;
+    display: block;
+    margin: 15px 10px 10px 21px;
+}
+
+.head-card-cont {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.card-contacts {
+    background: rgba(122, 178, 226, 0.41);
+    box-shadow: 15px 10px 10px rgba(61, 108, 185, 0.93);
+    margin: 0 auto;
+    border: 0px solid;
+    display: block;
+    width: 900px;
+    transition: 1s;
+    margin-top: 130px;
+
+}
+
+.card-contacts:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.25);
+}
+
+
+.container {
+    border: 0px solid red;
+    display: block;
+    width: 530px;
+    height: 200px;
+    text-align: justify;
+    margin: 10px 10px 10px 14px;
+    font-size: 16px;
+
+}
+
+.container-contacts {
+    border: 0px solid red;
+    display: block;
+    width: 530px;
+    height: 200px;
+    text-align: justify;
+    margin: 10px 10px 10px 14px;
+
+
+}
+
+.text-contacts {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+
+
+}
+
+.only-text {
+    list-style-type: none;
+}
+.ch1 {
+    margin-right: 50px;
+}
+
+
+
+
+
