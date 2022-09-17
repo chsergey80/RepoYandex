@@ -1,0 +1,12 @@
+.feynman {
+  background-image: url(../../images/feinman.png);
+  min-height: 890px; /* Исправилa height на min-height */
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  text-align: center;
+  position: relative;
+  background-position: bottom left;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+}
