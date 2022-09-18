@@ -1,0 +1,6 @@
+/* Секция digits */
+.digits {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

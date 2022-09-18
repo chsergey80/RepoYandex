@@ -1,0 +1,38 @@
+.cards {
+  width: 920px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.cards__item {
+  margin-right: 100px;
+  padding-top: 60px;
+  width: 240px;
+  text-align: center;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+}
+
+.cards__title {
+  padding-top: 43px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.cards__subtitle {
+  padding-top: 16px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}

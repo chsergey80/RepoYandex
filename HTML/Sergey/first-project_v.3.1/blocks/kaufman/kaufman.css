@@ -1,0 +1,8 @@
+/* Секция kaufman */
+.kaufman {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  color: white;
+}

@@ -1,0 +1,20 @@
+/* Секция resources */
+.resources {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 217px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  align-items: center;
+}

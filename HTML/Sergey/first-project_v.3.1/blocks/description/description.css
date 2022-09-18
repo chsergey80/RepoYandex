@@ -1,0 +1,5 @@
+/* Секция description */
+.description {
+  display: flex;
+  justify-content: center;
+}
