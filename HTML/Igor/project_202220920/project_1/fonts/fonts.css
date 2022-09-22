@@ -1,0 +1,23 @@
+/* подключаем шрифты Inter */
+@font-face {
+    src:url(Inter-Regular.woff) format("woff"),
+        url(Inter-Regular.woff2) format("woff2");
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+  }
+  @font-face {
+    src:url(Inter-Bold.woff) format("woff"),
+        url(Inter-Regular.woff2) format("woff2");
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+  }
+  @font-face {
+    src:url(Inter-SemiBold.woff) format("woff"),
+        url(Inter-SemiBold.woff2) format("woff2");
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+  }
+ 

@@ -1,0 +1,8 @@
+/* здесь будут модификаторы элемента footer__social-icon для того, 
+чтобы сделать подписи социальных сетей к иконкам-ссылкам */
+.footer__social-icon_text {
+  font-weight: 200;
+  font-size: 16px;
+  width: 100px;
+  height: 16px;
+ }

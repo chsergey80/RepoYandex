@@ -1,0 +1,8 @@
+/*Здесь размещаются стили блока header*/
+.header {
+  max-height: 756px;
+  min-height: 650px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+}

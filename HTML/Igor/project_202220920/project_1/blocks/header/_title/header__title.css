@@ -1,0 +1,9 @@
+/* стили элемента title "Научиться учиться"*/
+.header__title {
+     background-color: rgb(218, 152, 152);
+     align-self: center;
+     width: 730px;
+     height: 96;
+     margin-left: 64px;
+     font-size: 102px;
+}

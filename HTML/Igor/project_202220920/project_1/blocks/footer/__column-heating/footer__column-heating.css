@@ -1,0 +1,8 @@
+/* стили заголовка в footer в элементе footer__column_content_info */
+.footer__column-heating {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,7 @@
+/* стили для блока discription внутри большого блока content, который следует за header */
+.discription {
+    border: 1px solid red; /* для понимания границ, потом уберу */
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
