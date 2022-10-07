@@ -1,0 +1,11 @@
+/* это стили блока с тектом "Какие современные и эффективные подходы 
+          к обучению вы можете использовать в своей жизни?*/
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-family:"Inter", "Arial", sans-serif;
+  left: 64px;
+  bottom: 30px;
+}

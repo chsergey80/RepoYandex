@@ -1,0 +1,7 @@
+/* модификатор элементов cell в блоке table _theme_dark */
+.table__cell_theme_dark {
+  margin-top: 80px;
+  width: 200px;
+  z-index: 2;
+  /*background-color: black;*/
+}

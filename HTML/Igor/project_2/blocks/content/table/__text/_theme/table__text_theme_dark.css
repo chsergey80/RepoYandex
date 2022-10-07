@@ -1,0 +1,7 @@
+/* модификатор для описаний text в элементах cell в table _theme_dark */
+.table__text_theme_dark {
+    width: 200px;
+    text-align: left;
+    /*background-color: black;*/
+    color: white;
+  }

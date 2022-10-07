@@ -1,0 +1,6 @@
+/* стили двух окон в котрых будут отображаться видо TED video_iframe*/
+.video__iframe {
+  /*border: 1px solid red;*/
+  width: 515px;
+  height: 316px;
+}

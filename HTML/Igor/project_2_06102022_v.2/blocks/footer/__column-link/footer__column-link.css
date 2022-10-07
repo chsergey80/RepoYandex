@@ -1,0 +1,11 @@
+/* стили блока с иконками и подписями для ссылок на социальные сети */
+.footer__column-link {
+  height: 85px;
+  width: 120px;
+  display: flex;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}

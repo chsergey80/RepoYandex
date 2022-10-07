@@ -1,0 +1,5 @@
+/* стили элементов cell внутри блока table, внутри раздела digits */
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}

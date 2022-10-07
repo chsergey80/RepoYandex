@@ -1,0 +1,9 @@
+/* стили секции oakley */
+.oakley {
+    border: 1px solid red;
+    /*height: 500px;*/
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    background-color: #f2f2f2;
+}

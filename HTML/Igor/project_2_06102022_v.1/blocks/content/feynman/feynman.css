@@ -1,0 +1,15 @@
+/* стили для секции/блока feynman */
+.feynman {
+  border: 1px solid red;
+  background-color: #f2f2f2;
+  min-height: 890px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 100px;
+  z-index: 1;
+
+
+}

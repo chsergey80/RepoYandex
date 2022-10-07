@@ -1,0 +1,8 @@
+/* стили для текста Кинорежиссер, продюсер khan__quote-author-subline */
+.khan__quote-author-subline {
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}

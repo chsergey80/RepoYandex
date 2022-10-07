@@ -1,0 +1,12 @@
+/*стили элемента с текстом "Главные проблемы в обучении" внутри two-columns */
+.two-columns__brief {
+    width: 175px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    margin-top: 0;
+    color: #2f80ed;
+    /*background-color: aquamarine;*/
+    /*height: 120px; /* ВРЕМЕННО ПОКА НЕ МОГУ ПОНЯТЬ КАК ВОЗЬМЕТСЯ И ОТКУДА ВЫСОТА */
+}

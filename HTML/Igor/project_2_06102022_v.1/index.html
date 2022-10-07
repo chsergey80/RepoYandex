@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="blocks/page/page.css">
+    <link rel="stylesheet" href="blocks/header/header.css">
+    <link rel="stylesheet" href="blocks/logo/_place/logo_place_header.css">
+    <link rel="stylesheet" href="blocks/header/__title/header__title.css">
+    <link rel="stylesheet" href="blocks/header/__subtitle/header__subtitle.css">
+    <link rel="stylesheet" href="blocks/header/__link/header__link.css">
+    <link rel="stylesheet" href="blocks/header/__main-illustration/header__main-illustration.css">
+    <link rel="stylesheet" href="blocks/header/__square-pic/header__square-pic.css">
+    <link rel="stylesheet" href="blocks/content/discription/discription.css">
+    <link rel="stylesheet" href="blocks/content/two-columns/two-columns.css">
+    <link rel="stylesheet" href="blocks/content/two-columns/__brief/two-columns__brief.css">
+    <link rel="stylesheet" href="blocks/content/two-columns/__main-text/two-columns__main-text.css">
+    <link rel="stylesheet" href="blocks/content/two-columns/__paragraph/two-columns__paragraph.css">
+    <link rel="stylesheet" href="blocks/content/two-columns/__span-accent/two-columns__span-accent.css">
+    <link rel="stylesheet" href="blocks/content/technique/technique.css">
+    <link rel="stylesheet" href="blocks/content/section-title/section-title.css">
+    <link rel="stylesheet" href="blocks/content/section-subtitle/section-subtitle.css">
+    <link rel="stylesheet" href="blocks/content/cards/cards.css">
+    <link rel="stylesheet" href="blocks/content/cards/__item/cards__item.css">
+    <link rel="stylesheet" href="blocks/content/cards/__image/cards__image.css">
+    <link rel="stylesheet" href="blocks/content/cards/__title/cards__title.css">
+    <link rel="stylesheet" href="blocks/content/cards/__discription/cards__discription.css">
+    <link rel="stylesheet" href="blocks/content/cards/__image/_card-attetion/cards__image_card-attetion.css">
+    <link rel="stylesheet" href="blocks/content/cards/__image/_card-recall/cards__image_card-recall.css">
+    <link rel="stylesheet" href="blocks/content/cards/__image/_card-interliving/cards__image_card-interliving.css">
+    <link rel="stylesheet" href="blocks/content/cards/__image/_card-question/cards__image_card-question.css">
+    <link rel="stylesheet" href="blocks/content/cards/__image/_card-competence/cards__image_card-competence.css">
+    <link rel="stylesheet" href="blocks/content/digits/digits.css">
+    <link rel="stylesheet" href="blocks/content/table/table.css">
+    <link rel="stylesheet" href="blocks/content/table/__cell/table__cell.css">
+    <link rel="stylesheet" href="blocks/content/table/__heading/table__heading.css">
+    <link rel="stylesheet" href="blocks/content/table/__text/table__text.css">
+    <link rel="stylesheet" href="blocks/content/kaufman/kaufman.css">
+    <link rel="stylesheet" href="blocks/content/section-title/_theme/section-title_theme_dark.css">
+    <link rel="stylesheet" href="blocks/content/section-subtitle/_theme/section-subtitle_theme_dark.css">
+    <link rel="stylesheet" href="blocks/content/table/_theme/table_theme_dark.css">
+    <link rel="stylesheet" href="blocks/content/table/__cell/_theme/table__cell_theme_dark.css">
+    <link rel="stylesheet" href="blocks/content/table/__heading/_theme/table__heading_theme_dark.css">
+    <link rel="stylesheet" href="blocks/content/table/__text/_theme/table__text_theme_dark.css">
+    <link rel="stylesheet" href="blocks/content/resources/resources.css">
+    <link rel="stylesheet" href="blocks/content/resources/__logo-zone/resources__logo-zone.css">
+    <link rel="stylesheet" href="blocks/content/resources/__link/resources__link.css">
+    <link rel="stylesheet" href="blocks/footer/footer.css">
+    <link rel="stylesheet" href="blocks/footer/__columns/footer__columns.css">
+    <link rel="stylesheet" href="blocks/footer/__column/_content/footer__column_content_copyright.css">
+    <link rel="stylesheet" href="blocks/logo/_place/logo_place_footer.css">
+    <link rel="stylesheet" href="blocks/footer/__author/footer__author.css">
+    <link rel="stylesheet" href="blocks/footer/__column-heating/footer__column-heating.css">
+    <link rel="stylesheet" href="blocks/footer/__column-links/footer__column-links.css">
+    <link rel="stylesheet" href="blocks/footer/__column-links/_text/footer__column-links_text.css">
+    <link rel="stylesheet" href="blocks/footer/__column/_content/footer__column_content_info.css">
+    <link rel="stylesheet" href="blocks/footer/__column/_content/footer__column_content_social.css">
+    <link rel="stylesheet" href="blocks/footer/__column-link/footer__column-link.css">
+    <link rel="stylesheet" href="blocks/footer/__social-icon/footer__social-icon.css">
+    <link rel="stylesheet" href="blocks/footer/__social-icon/_text/footer__social-icon_text.css">
+    <link rel="stylesheet" href="blocks/rotation/rotation.css">
+    <link rel="stylesheet" href="blocks/content/video/video.css">
+    <link rel="stylesheet" href="blocks/content/video/__iframes/video__iframes.css">
+    <link rel="stylesheet" href="blocks/content/video/__iframe/video__iframe.css">
+    <link rel="stylesheet" href="blocks/content/oakley/oakley.css">
+    <link rel="stylesheet" href="blocks/content/feynman/feynman.css">
+    <link rel="stylesheet" href="blocks/content/feynman/__title/feynman__title.css">
+    <link rel="stylesheet" href="blocks/content/feynman/__subtitle/feynman__subtitle.css">
+    <link rel="stylesheet" href="blocks/content/feynman/__image/feynman__image.css">
+    <link rel="stylesheet" href="blocks/content/feynman/__link/feynman__link.css">
+    <link rel="stylesheet" href="blocks/content/khan/khan.css">
+    <link rel="stylesheet" href="blocks/content/khan/__container/khan__container.css">
+    <link rel="stylesheet" href="blocks/content/khan/__author/khan__author.css">
+    <link rel="stylesheet" href="blocks/content/khan/__title/khan__title.css">
+    <link rel="stylesheet" href="blocks/content/khan/__quote/khan__quote.css">
+    <link rel="stylesheet" href="blocks/content/khan/__quote-author/khan__quote-author.css">
+    <link rel="stylesheet" href="blocks/content/khan/__quote-author-subline/khan__quote-author-subline.css">
+    <link rel="stylesheet" href="blocks/content/khan/__book-container/khan__book-container.css">
+    <link rel="stylesheet" href="blocks/content/khan/__book-pic/khan__book-pic.css">
+    <link rel="stylesheet" href="blocks/content/khan/__buy-link/khan__buy-link.css">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Научиться учиться</title>
+</head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="logo">
+          <img class="logo_place_header" src="blocks/logo/logo_place_header.svg" alt="Яндекс практикум">
+        </div>
+        <h1 class="header__title">Научиться учиться</h1>
+        <h2 class="header__subtitle">Какие современные и эффективные подходы 
+          к обучению вы можете использовать в своей жизни? 
+          <a class="header__link" href="#">Узнать &#8594</a>
+        </h2>
+        <div class="header__main-illustration"></div>
+        <div class="header__square-pic rotation"></div>
+      </header>
+      <section class="content">
+        <section class="discription">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+            <div class="two-columns__main-text">
+              <div class="two-columns__paragraph">
+                Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
+                Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, 
+                чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. 
+                Зубрежка быстро выветривается и не приносит пользы.
+              </div>
+              <div class="two-columns__paragraph">
+                <span class="two-columns__span-accent">Вывод:</span>учиться тоже нужно уметь, но почему-то этому мало где учат. 
+                Что с этим делать?
+              </div>
+              <div class="two-columns__paragraph">
+                Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. 
+                Эти же техники применяются на примере обучения в Практикуме.
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <section class="technique">
+          <h1 class="section-title">Техники обучения</h1>
+          <h2 class="section-subtitle">Пять практик от Барбары Оакли</h2>
+          <div class="cards">
+            <div class="cards__item">
+              <div class="cards__image cards__image_card-attetion"></div>
+              <div class="cards__title">
+                  Два вида внимания
+              </div>
+              <div class="cards__discription">
+                Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
+              </div>
+            </div>
+            <div class="cards__item">
+              <div class="cards__image cards__image_card-recall"></div>
+              <div class="cards__title">
+                Recall
+              </div>
+              <div class="cards__discription">
+                Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
+              </div>
+            </div>
+            <div class="cards__item">
+              <div class="cards__image cards__image_card-interliving"></div>
+              <div class="cards__title">
+                Интерливинг
+              </div>
+              <div class="cards__discription">
+                Изучайте несколько навыков одновременно, они обогащают друг друга.
+              </div>
+            </div>
+            <div class="cards__item">
+              <div class="cards__image cards__image_card-question"></div>
+              <div class="cards__title">
+                Вопросы
+              </div>
+              <div class="cards__discription">
+                Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+              </div>
+            </div>
+            <div class="cards__item">
+              <div class="cards__image cards__image_card-competence"></div>
+              <div class="cards__title">
+                Иллюзия компетентности
+              </div>
+              <div class="cards__discription">
+                Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+              </div>
+            </div>
+            <div class="cards__item"></div>
+          </div>
+        </section>
+
+        <section class="video">
+          <h1 class="section-title">Видео на TED</h1>
+          <h2 class="section-subtitle">Для тех, кто любит прокрастинировать</h2>
+          <div class="video__iframes">
+            <div class="video__iframe">
+              <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+            </div>
+            <div class="video__iframe">
+              <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY?controls=0"></iframe>
+            </div>
+          </div>  
+        </section>
+
+        <section class="oakley">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+            <div class="two-columns__main-text">
+              <div class="two-columns__paragraph">
+                С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. 
+                В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. 
+                Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. 
+                Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="feynman">
+          <h1  class="feynman__title">Метод Фейнмана</h1>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
+          <a class="feynman__link" href="#"> Подробнее &rarr; </a>
+          <img class="feynman__image" src="images/feynman.png" alt="Фейнман">
+        </section>
+    
+        <section class="digits">
+          <h1 class="section-title">Цифры и факты</h1>
+          <h2 class="section-subtitle">Про учёбу и мозг</h2>
+          <div class="table">
+            <div class="table__cell">
+              <div class="table__heading">
+                86 миллиардов
+              </div>
+              <div class="table__text">
+                Число нейронов в мозге человека
+              </div>
+            </div>
+            <div class="table__cell">
+              <div class="table__heading">
+                2.1 миллиарда
+              </div>
+              <div class="table__text">
+                Число нуждающихся в повышении квалификации
+              </div>
+              <div class="table__text">
+                Всемирный Банк, 2017
+              </div>
+            </div>
+            <div class="table__cell">
+              <div class="table__heading">
+                1000 терабайт
+              </div>
+              <div class="table__text">
+                Объём памяти человека
+              </div>
+            </div>
+            <div class="table__cell">
+              <div class="table__heading">
+                500 триллионов
+              </div>
+              <div class="table__text">
+                Число ответственных за обучение нервных синапсов у взрослого человека
+              </div>
+            </div>
+            <div class="table__cell">
+              <div class="table__heading">
+                420 миллионов
+              </div>
+              <div class="table__text">
+                Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
+              </div>
+              <div class="table__text">
+                Всемирный Банк, 2017
+              </div>
+            </div>
+            <div class="table__cell">
+              <div class="table__heading">
+                17–20 лет
+              </div>
+              <div class="table__text">
+                Пик обучаемости
+              </div>
+            </div>
+            <div class="table__cell">
+              <div class="table__heading">
+                1885 год
+              </div>
+              <div class="table__text">
+                Открытие кривой забывания
+              </div>
+            </div>
+            <div class="table__cell">
+              <div class="table__heading">
+                1889 год
+              </div>
+              <div class="table__text">
+                Открытие условного рефлекса
+              </div>
+            </div>
+        </section>
+
+        <section class="khan">
+          <div class="khan__container">
+            <p class="khan__author">Салман Хан</p>
+            <p class="khan__title">Весь мир — школа</p>
+            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. 
+              Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить 
+              навыки и знания, которые приносят успех в школе, карьере и жизни.
+            </p>
+            <p class="khan__quote-author">Джордж Лукас</p>
+            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+            <div class="khan__book-container">
+              <img class="khan__book-pic" src="images/khan-book.jpg" alt="Весь мир — школа">
+              <a class="khan__buy-link" href="#"> Купить книгу &rarr; </a>
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <section class="kaufman">
+          <h1 class="section-title section-title_theme_dark">Принципы обучения</h1>
+          <h2 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h2>
+          <div class="table table_theme_dark">
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                1
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Выберите привлекательный проект.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                2
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Сосредоточьтесь на каком-то одном навыке.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                3
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Определите целевой уровень мастерства.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                4
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Разбейте навык на элементы.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                5
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Приготовьте всё необходимое для занятий.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                6
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Устраните препятствия для занятий.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                7
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Выделите специальное время для занятий.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                8
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Создайте быстрые петли обратной связи.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                9
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Занимайтесь по расписанию, короткими интенсивными интервалами.
+              </div>
+            </div>
+            <div class="table__cell table__cell_theme_dark">
+              <div class="table__heading table__heading_theme_dark">
+                10
+              </div>
+              <div class="table__text table__text_theme_dark">
+                Уделяйте внимание количеству и скорости.
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="resources">
+          <h1 class="section-title">Полезные ресурсы</h1>
+          <h2 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h2>
+          <div class="resources__logo-zone">
+            <div class="resources__link">
+              <a class="resources__logo" href="#">
+                <img src="./images/resources-arzamas.svg" alt="Arzamas">
+              </a>
+            </div>
+            <div class="resources__link">
+              <a class="resources__logo" href="#">
+                <img src="./images/resources-n1.svg" alt="N+1">
+              </a>
+            </div>
+            <div class="resources__link">
+              <a class="resources__logo" href="#">
+                <img src="./images/resources-strelka.svg" alt="STRELKA">
+              </a>
+            </div>
+            <div class="resources__link">
+              <a class="resources__logo" href="#">
+                <img src="./images/resources-polka.svg" alt="ПОЛКА">
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column_content_copyright">
+            <div class="logo_place_footer">
+              <img src="blocks/logo/logo_place_footer.svg" alt="Яндекс практимум">
+            </div>
+            <div class="footer__author">
+              &copyВиктор Абанькин
+            </div>
+          </div>
+          <div class="footer__column_content_info">
+            <div class="footer__column-heating">
+              О Практикуме
+            </div>
+            <div class="footer__column-links">
+              <a class="footer__column-links_text" href="#">Главная</a>
+              <a class="footer__column-links_text" href="#">Концепция</a>
+              <a class="footer__column-links_text" href="#">Наставники</a>       
+            </div>
+          </div>
+          <div class="footer__column_content_social">
+            <div class="footer__column-heating">
+              Соцсети
+            </div>
+            <div class="footer__column-link">
+              
+              <div class="footer__social-icon">
+                <a href="#">
+                  <img src="./blocks/logo/facebook_color_white.svg" alt="Facebook">
+                </a>
+              </div>
+              <div class="footer__social-icon_text">
+                Facebook
+              </div>
+
+
+              <div class="footer__social-icon">
+                <a href="#">
+                  <img src="./blocks/logo/vk_color_white.svg" alt="ВКонтакте">
+                </a>
+              </div>
+              <div class="footer__social-icon_text">
+                ВКонтакте
+              </div>
+              
+              <div class="footer__social-icon">
+                <a href="#">
+                  <img src="./blocks/logo/instagram_color_white.svg" alt="Instagram">
+                </a>
+              </div>
+              <div class="footer__social-icon_text">
+                Instagram
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        
+       
+      </footer>
+    </div>  
+  </body>
+</html>

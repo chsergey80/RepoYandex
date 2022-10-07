@@ -1,0 +1,9 @@
+/* модификаторы для ссылок Главная, Концепция, Наставники */
+.footer__column-links_text {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.footer__column-links_text:last-child {
+  margin-bottom: 0;
+}

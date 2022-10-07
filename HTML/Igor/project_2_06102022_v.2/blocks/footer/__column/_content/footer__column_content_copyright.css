@@ -1,0 +1,14 @@
+/* внутри элемнта footer__columns вставлены два одинаковых по ширине элемента, 
+которые определены через модификаторы ключ_значение
+1. footer__column_content_copyright
+2. footer__column_content_info
+3. footer__column_content_social
+здесь стили первого */
+.footer__column_content_copyright {
+  width: 711px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}

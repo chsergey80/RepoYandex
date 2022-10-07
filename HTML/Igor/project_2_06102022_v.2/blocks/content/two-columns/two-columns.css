@@ -1,0 +1,8 @@
+/* стили описания блока two-columns, котрый по сути выполняет
+функции блока discription на главной стринце брифа */
+.two-columns {
+  display: flex;
+  align-self: center;
+  width: 80%;
+  justify-content: space-between;
+ }

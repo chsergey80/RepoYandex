@@ -1,0 +1,5 @@
+/* этот модификатор подключит картику cards-competence.png к карточке */
+.cards__image_card-competence {
+    background-image: url(../../../../../images/cards-competence.png);
+    background-size: cover;
+  }

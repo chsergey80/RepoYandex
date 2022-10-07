@@ -1,0 +1,7 @@
+/* модификатор для блока table в секции kaufman _theme_dark */
+.table_theme_dark {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}

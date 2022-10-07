@@ -1,0 +1,5 @@
+/* этот модификатор подключит картику cards-question.png к карточке */
+.cards__image_card-question {
+  background-image: url(../../../../../images/cards-question.png);
+  background-size: cover;
+  }

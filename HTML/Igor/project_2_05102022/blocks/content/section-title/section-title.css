@@ -1,0 +1,10 @@
+/* стили для section-title */
+.section-title {
+  margin-top: -10px;
+  width: 60%;
+  align-self: center;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}

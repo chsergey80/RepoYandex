@@ -1,0 +1,8 @@
+/* стили заголовков heating внутри ячеек cell внутри table внутри секции digits */
+.table__heading {
+  width: 250px;
+  line-height: 1.15;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+/* общие стили для блока "полезные ресурсы" resources */
+.resources {
+    border: 1px solid red;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}

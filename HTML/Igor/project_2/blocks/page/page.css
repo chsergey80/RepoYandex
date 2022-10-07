@@ -1,0 +1,14 @@
+/* здесь стили родительского блока pge 
+в котром хранятся все страницы
+минимальная ширина 1100 px, максимальная ширина 1600 px*/
+.page {
+  margin: 0; /*сбросил margin*/
+  padding: 0; /*сбросил padding*/
+  margin: auto;
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: "Inter", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red; /* Временно только чтобы следить за размерами */
+}

@@ -1,0 +1,8 @@
+/* стили cards__image */
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  align-self: center;
+  margin-top: 60px;
+}

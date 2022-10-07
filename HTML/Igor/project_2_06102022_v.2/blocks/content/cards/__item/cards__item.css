@@ -1,0 +1,6 @@
+/* стили cards__item */
+.cards__item {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}

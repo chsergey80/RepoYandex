@@ -1,0 +1,8 @@
+/* стили основного контенера khan__container в кторый будет погружен весь контент блока */
+.khan__container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}

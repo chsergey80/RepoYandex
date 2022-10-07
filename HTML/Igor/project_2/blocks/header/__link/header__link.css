@@ -1,0 +1,5 @@
+/* стили для ссылки внутри header__subtitle */
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}

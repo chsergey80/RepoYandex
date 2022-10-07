@@ -1,0 +1,9 @@
+/* стили описаний text внутри ячеек cell внутри table внутри секции digits */
+.table__text {
+  width: 250px;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: left;
+}

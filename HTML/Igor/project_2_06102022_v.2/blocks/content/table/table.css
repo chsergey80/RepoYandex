@@ -1,0 +1,10 @@
+/* стили блока table внутри секции digits */
+.table {
+  width: 1100px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 2;
+}

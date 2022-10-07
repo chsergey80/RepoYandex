@@ -1,0 +1,7 @@
+/* модификатор блока section-title_theme_dark 
+(находиться project_1/blocks/section-title/_theme/section-title_theme_dark) */
+.section-title_theme_dark {
+    margin-top: 90px;
+    background-color: black;
+    color: white;
+}

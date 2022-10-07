@@ -1,0 +1,12 @@
+/* стили для ссылки "подробнее" в секции Фейнман */
+.feynman__link {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 51px;
+  position: absolute;
+  right: 48px;
+  bottom: 50%;
+  
+}

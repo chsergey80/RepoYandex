@@ -1,0 +1,9 @@
+/* стили для контейнерва в котором будет картинка и ссылка khan__book-container */
+.khan__book-container {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: row;
+  
+  
+
+}

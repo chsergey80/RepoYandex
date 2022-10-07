@@ -1,0 +1,10 @@
+/* стили для логотипов, котрые будут представленны как ссылки __link */
+.resources__link {
+  width: 270px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}

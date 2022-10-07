@@ -1,0 +1,7 @@
+/* этот модификатор подключит картику cards-recall.png к карточке */
+.cards__image_card-recall {
+  background-image: url(../../../../../images/cards-recall.png);
+  background-size: cover;
+}
+
+    

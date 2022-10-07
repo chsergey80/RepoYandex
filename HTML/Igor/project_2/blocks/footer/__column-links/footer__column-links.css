@@ -1,0 +1,10 @@
+/* стили ссылок Главна, Концепция, Наставники в footer */
+.footer__column-links {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}

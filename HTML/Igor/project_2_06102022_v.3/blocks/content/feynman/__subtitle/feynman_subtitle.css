@@ -1,0 +1,6 @@
+/* стили подписи Выучить и не забыть feynman__subtitle */
+.feynman__subtitle {
+  border: 1px solid red;
+  font-size: 36px;
+  color: brown;
+}

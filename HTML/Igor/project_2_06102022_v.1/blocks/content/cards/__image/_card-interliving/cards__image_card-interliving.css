@@ -1,0 +1,5 @@
+/* этот модификатор подключит картику cards-interliving.png к карточке */
+.cards__image_card-interliving {
+    background-image: url(../../../../../images/cards-interliving.png);
+    background-size: cover;
+  }

@@ -1,0 +1,12 @@
+/* стили секции kaufman, следующая за digits секция */
+.kaufman {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  }

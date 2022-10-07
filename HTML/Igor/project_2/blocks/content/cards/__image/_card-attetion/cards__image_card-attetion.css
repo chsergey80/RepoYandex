@@ -1,0 +1,5 @@
+/* этот модификатор подключит картику cards-attention.png к карточке */
+.cards__image_card-attetion {
+  background-image: url(../../../../../images/cards-attention.png);
+  background-size: cover;
+}
