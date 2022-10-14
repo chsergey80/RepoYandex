@@ -1,0 +1,24 @@
+.lead__image-title {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4;
+  margin: 8px 0;
+  margin-bottom: 29px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-title {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image-title {
+    margin-bottom: 5px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}

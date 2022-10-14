@@ -1,0 +1,16 @@
+.photo {
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  .photo {
+    padding-top: 36px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo {
+    padding-top: 51px;
+  }
+}
+

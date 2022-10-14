@@ -1,0 +1,21 @@
+.profile__info {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (min-width: 320px) {
+  .profile__info {
+    padding-top: 26px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .profile__info {
+    padding-left: 30px;
+    padding-top: 0;
+    justify-items: stretch;
+  }
+}

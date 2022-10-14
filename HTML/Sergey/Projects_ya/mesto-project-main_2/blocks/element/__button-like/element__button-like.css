@@ -1,0 +1,21 @@
+.element__button-like {
+  background-image: url(../../../images/like_disabled.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 19px;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+
+.element__button-like:hover {
+  transition: opacity 0.2s linear;
+  opacity: 0.6;
+}
+
+.element__button-like:active {
+  background-image: url(../../../images/like_active.svg);
+  opacity: 1;
+}

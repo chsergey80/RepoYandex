@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Mesto</title>
+  </head>
+  <body class="page">
+    <!--header-->
+    <header class="header">
+      <img class="header__logo" src="./images/logo.svg" alt="логотип Место" />
+    </header>
+    <!-- profile -->
+    <main class="content">
+      <section class="profile">
+        <div class="profile__user">
+          <img
+            src="./images/avatar.jpg"
+            alt="аватар пользователя"
+            class="profile__avatar"
+          />
+          <div class="profile__info">
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <button
+              class="profile__button-edit"
+              type="button"
+              aria-label="Редактировать профиль"
+            ></button>
+            <p class="profile__description">Исследователь океана</p>
+          </div>
+        </div>
+        <button
+          class="profile__button-add"
+          type="button"
+          aria-label="Добавить фото"
+        ></button>
+      </section>
+      <!-- elements -->
+      <section class="elements">
+        <ul class="elements__list">
+          <li class="element">
+            <img
+              class="element__image"
+              src="./images/tobizin-cape.jpg"
+              alt="Мыс Тобизина"
+            />
+            <div class="element__caption">
+              <h2 class="element__title">Мыс Тобизина</h2>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
+            </div>
+          </li>
+          <li class="element">
+            <img
+              class="element__image"
+              src="./images/kamchatka.jpg"
+              alt="Камчатка"
+            />
+            <div class="element__caption">
+              <h2 class="element__title">Камчатка</h2>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
+            </div>
+          </li>
+          <li class="element">
+            <img
+              class="element__image"
+              src="./images/lake-ritsa.jpg"
+              alt="Озеро Рица"
+            />
+            <div class="element__caption">
+              <h2 class="element__title">Озеро Рица</h2>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
+            </div>
+          </li>
+          <li class="element">
+            <img
+              class="element__image"
+              src="./images/elbrus.jpg"
+              alt="Гора Эльбрус"
+            />
+            <div class="element__caption">
+              <h2 class="element__title">Гора Эльбрус</h2>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
+            </div>
+          </li>
+          <li class="element">
+            <img
+              class="element__image"
+              src="./images/dombai.jpg"
+              alt="Домбай"
+            />
+            <div class="element__caption">
+              <h2 class="element__title">Домбай</h2>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
+            </div>
+          </li>
+          <li class="element">
+            <img
+              class="element__image"
+              src="./images/karachay-cherkessia.jpg"
+              alt="Карачаево-Черкессия"
+            />
+            <div class="element__caption">
+              <h2 class="element__title">Карачаево-Черкессия</h2>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
+    </footer>
+    <!-- popup -->
+    <section class="popup">
+      <div class="popup__container">
+        <form class="popup__form" name="profile__edit">
+          <h3 class="popup__heading">Редактировать профиль</h3>
+          <input
+            type="text"
+            class="popup__input"
+            name="name"
+            placeholder="Имя"
+            required
+          />
+          <input
+            type="text"
+            class="popup__input"
+            name="about"
+            placeholder="О себе"
+            required
+          />
+          <button class="popup__button-save" type="submit">Сохранить</button>
+        </form>
+        <button
+          class="popup__button-close"
+          type="button"
+          aria-label="Закрыть"
+        ></button>
+      </div>
+    </section>
+  </body>
+</html>

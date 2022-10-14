@@ -1,0 +1,17 @@
+.logo {
+  height: 52px;
+  width: 176px;
+}
+
+@media screen and (min-width: 1280px) {
+  .logo {
+    /* padding-right: 900px; */
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .logo {
+    height: 42px;
+    width: 142px;
+  }
+}

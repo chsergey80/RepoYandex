@@ -1,0 +1,12 @@
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 450px) {
+  .place__text-block {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
