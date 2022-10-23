@@ -1,0 +1,6 @@
+/* сделать жирным слово вывод */
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}

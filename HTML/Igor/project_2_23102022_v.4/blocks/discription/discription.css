@@ -1,0 +1,6 @@
+/* стили для блока discription внутри большого блока content, который следует за header */
+.discription {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}

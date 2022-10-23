@@ -1,0 +1,10 @@
+/* стили для блока в котором будут отражаться видео с TED YouTube video__iframes */
+.video__iframes {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: -60px;
+}

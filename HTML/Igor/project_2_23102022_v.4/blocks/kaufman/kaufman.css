@@ -1,0 +1,12 @@
+/* стили секции kaufman
+overflow: hidden - чтобы обрезать вылазающие края, вращающегося треугольника */
+.kaufman {
+  background: #1f1f1f;   /* исправлено - цвет по брифу */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}

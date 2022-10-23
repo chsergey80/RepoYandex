@@ -1,0 +1,9 @@
+/* стили центрального блока technique */
+.technique {
+  padding-top: 100px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}

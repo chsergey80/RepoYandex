@@ -1,0 +1,15 @@
+/* внутри элемнта footer__columns вставлены два одинаковых по ширине элемента, 
+которые определены через модификаторы ключ_значение
+1. footer__column_content_copyright
+2. footer__column_content_info
+3. footer__column_content_social
+здесь стили первого */
+.footer__column_content_copyright {
+  width: 100%;
+  max-width: 711px;
+  min-height: 250px; /* исправлено по замечаниб ревьюера */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}

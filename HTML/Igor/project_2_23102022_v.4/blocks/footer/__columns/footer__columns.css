@@ -1,0 +1,10 @@
+/* стили основоного блока (на самом деле элемент) в footer. */
+.footer__columns {
+  margin-top: 60px;
+  width: 90%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}

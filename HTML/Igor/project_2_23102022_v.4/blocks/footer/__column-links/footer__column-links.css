@@ -1,0 +1,9 @@
+/* стили ссылок Главна, Концепция, Наставники в footer */
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 6px; /* оставил 6px, так как селектором footer__column-link каждому элементу уже сделан отступ margin-bottom 10px */
+}

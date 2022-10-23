@@ -1,0 +1,9 @@
+/* стили cards__discription */
+.cards__discription {
+  margin-bottom: 0; /* внесено по замечанию ревьюера "Нужно сбросить нижний отступ браузера для текстового элемента" */
+  margin-top: 16px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}

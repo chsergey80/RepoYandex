@@ -1,0 +1,10 @@
+/*Здесь размещаются стили блока header*/
+.header {
+  height: 100vh;    /* внесено по замечанию ревьюера, наконец-то дошло, как это работает */
+  max-height: 756px;
+  min-height: 650px;
+  background: #f2f2f2;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}

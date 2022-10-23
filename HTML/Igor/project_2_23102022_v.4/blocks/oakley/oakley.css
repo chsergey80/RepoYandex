@@ -1,0 +1,7 @@
+/* стили секции oakley */
+.oakley {
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  background: #f2f2f2;
+}

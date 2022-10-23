@@ -1,0 +1,10 @@
+/* стили для ссылки внутри header__subtitle */
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+  transition: opacity 0.4s linear;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+} /* внесено по замечанию ревьюера, как я мог это упустить - "ума не приложу" */

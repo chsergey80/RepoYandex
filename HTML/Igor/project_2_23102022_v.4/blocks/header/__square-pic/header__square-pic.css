@@ -1,0 +1,12 @@
+/* стили синего квадрата котрый должен находиться 
+под картинкой "Опять двойка" header__square-pic
+этот квадрат еще и вращается. Анимация задана через класс rotate. Стили анимации и keyframe описаны в rotate.css*/
+.header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  width: 568px;
+  height: 568px;
+  background: #2f80ed;
+  
+}

@@ -1,0 +1,11 @@
+/* стили подвала в целом */
+.footer {
+  width: 100%;
+  background: #1f1f1f;   /* исправлено - цвет по брифу */
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 350px;
+  
+}

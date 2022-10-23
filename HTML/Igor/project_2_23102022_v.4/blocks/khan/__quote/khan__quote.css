@@ -1,0 +1,10 @@
+/* стили блока с цитатой khan__quote */
+.khan__quote {
+  width: 100%;
+  max-width: 790px;     /* внесено исправление по замечанию ревьюера, вместо width: 790px; установлена рекомендованная связка */
+  margin-top: 50px;
+  margin-bottom: 36px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 100;
+}

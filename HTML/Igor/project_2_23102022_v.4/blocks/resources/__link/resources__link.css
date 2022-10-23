@@ -1,0 +1,13 @@
+/* стили для логотипов, котрые будут представленны как ссылки __link */
+.resources__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  transition: opacity 0.4s linear;
+  /* исправлено по замечанию ревьюера, размеры картики указаны в самой картинке .resources__logo */
+}
+
+.resources__link:hover {
+  opacity: 0.5;
+} /* внесено по замечанию ревьюера, как я мог это упустить - "ума не приложу" */

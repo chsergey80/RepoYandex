@@ -1,0 +1,11 @@
+/* стили для section-subtitle */
+.section-subtitle {
+  margin: 0;       /* внесено по замечанию ревьюера */
+  max-width: 60%; /* исправлено по замечанию ревьюера */
+  padding-top: 20px;
+  align-self: center;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 200;
+}

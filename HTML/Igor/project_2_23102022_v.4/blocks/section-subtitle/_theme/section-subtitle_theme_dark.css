@@ -1,0 +1,6 @@
+/* модификатор блока section-subtitle_theme_dark 
+(находиться project_1/blocks/section-subtitle/_theme/section-subtitle_theme_dark) */
+.section-subtitle_theme_dark {
+  color: white;
+  z-index: 2; /* поправлено по замечанию ревьюера - "При сжатии экрана, картинка закрывает текст"*/
+}

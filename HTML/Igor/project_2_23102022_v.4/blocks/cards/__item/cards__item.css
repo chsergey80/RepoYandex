@@ -1,0 +1,11 @@
+/* стили cards__item */
+.cards__item {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.cards__item:nth-child(3) {
+  margin-right: 0;
+}

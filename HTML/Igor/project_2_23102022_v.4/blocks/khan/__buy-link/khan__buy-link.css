@@ -1,0 +1,14 @@
+/* стили ссылки купить книгу khan__buy-link */
+.khan__buy-link {
+  align-self: start;  /* внесено по замечанию ревьюера. недочет исправлен, поле ссылки ограничено*/
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 100;
+  transition: opacity 0.4s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
+} /* внесено по замечанию ревьюера, как я мог это упустить - "ума не приложу" */

@@ -1,0 +1,12 @@
+/* стили блока с треуголником, который должен вращаться */
+.kaufman__triangle {
+  background-image: url("../../../images/kaufman-triangle.svg");    
+  background-size: cover;
+  position: absolute;
+  height: 877px;
+  width: 877px;
+  right: -210px;
+  top: -80px;
+  z-index: 1;
+ 
+}

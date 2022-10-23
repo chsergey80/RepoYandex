@@ -1,0 +1,28 @@
+/* стили для секции/блока feynman */
+/* .feynman {
+  background: #f2f2f2;
+  min-height: 890px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 100px;
+  z-index: 1;
+} */
+
+/*Сергей, было у тебя */
+
+.feynman{
+  /* border: 1px solid blue;   это было только для отслеживания размера блока*/
+  background-color: #f2f2f2;
+  width: 100%;
+  min-height: 890px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  box-sizing: border-box;
+  position: relative;
+
+}
+/* стало у меня ... на два оператора меньше */

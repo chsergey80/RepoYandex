@@ -1,0 +1,15 @@
+/* стили блока с иконками и подписями для ссылок на социальные сети */
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  transition: opacity 0.4s linear;
+  /*по замечанию ревьюера убраны ненужные размеры иглупости типа flex-directoin: wrap; */
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
+} /* внесено по замечанию ревьюера, как я мог это упустить - "ума не приложу" */

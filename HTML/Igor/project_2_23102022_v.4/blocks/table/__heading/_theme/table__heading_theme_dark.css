@@ -1,0 +1,5 @@
+/* модификатор для заголовков header в элементах cell в table _theme_dark */
+.table__heading_theme_dark {
+  text-align: left;
+  color: white;
+}

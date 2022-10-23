@@ -1,0 +1,10 @@
+/*стили элемента __main-text c тремя строками внутри. Сам элемент находиться внутри two-columns,
+выполняющего роль  discription */
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  
+}
+ 

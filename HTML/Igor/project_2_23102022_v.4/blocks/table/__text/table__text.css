@@ -1,0 +1,10 @@
+/* стили описаний text внутри ячеек cell внутри table внутри секции digits */
+.table__text {
+  margin-bottom: 0; /* внесено по замечанию ревьюера "Нужно сбросить нижний отступ браузера для элемента" */
+  width: 100%;
+  max-width: 250px;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-weight: 200;
+  font-size: 18px;
+}
