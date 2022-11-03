@@ -1,0 +1,18 @@
+.place__url-heading {
+  color: #aaa;  
+  margin: 0 0 12px 0;   /* исправлено замечание*/
+  /*margin-bottom: 12px;*/   /* исправлено замечание*/
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;   /* исправлено замечание*/
+
+}
+
+@media screen and (max-width: 767px) {
+  .place__url-heading {
+    padding-left: 16px;
+    
+  }
+}

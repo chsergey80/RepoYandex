@@ -1,0 +1,17 @@
+.places-card__url-caption {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: normal;
+  color: #aaaaaa;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .places-card__url-caption {
+    margin-bottom: 14px;
+  }
+}
