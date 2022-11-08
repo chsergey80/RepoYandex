@@ -1,0 +1,23 @@
+/* стили ссылок непосредственно */
+.header__lang-link {
+  /* border: 1px solid red; */
+  color: #fff;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 400;
+  transition: opacity 0.4s linear;
+}
+
+/* Исправлено по замечани ю ревьюера - "Ссылкам в header и footer нужно добавить эффект наведения с изменением прозрачности" */
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+  line-height: 20px;
+  font-size: 18px;
+  }
+}

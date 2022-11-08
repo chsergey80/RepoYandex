@@ -1,0 +1,28 @@
+/* подключаем шрифты Inter */
+
+@font-face {
+  src: 
+    url(Inter-Regular.woff2) format("woff2"),
+    url(Inter-Regular.woff) format("woff");
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+@font-face {
+  src: 
+    url(Inter-Bold.woff2) format("woff2"),
+    url(Inter-Bold.woff) format("woff");
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+/* внесено по замечанию ревьюера - "В проект нужно добавить шрифт Inter-Black с начертанием 900" */
+@font-face {
+  src: 
+    url(Inter-Black.woff2) format("woff2"),
+    url(Inter-Black.woff) format("woff");
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+/* Из папки fonts нужно удалить шрифт Inter-SemiBold - УДАЛИЛ */

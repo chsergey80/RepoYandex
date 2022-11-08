@@ -1,0 +1,26 @@
+/* стили списка показателей внизу секции intro */
+.intro__list {
+  /* border: 1px solid rgb(51, 146, 153); */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 700; /* исправил размер шрифта .. в самом макете не нашел, но коллеги в коментариях написали, что текст 700, а цифры 400 */
+  max-width: 690px;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__list {
+    max-width: 720px;
+    margin: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    max-width: 288px;
+    margin: 0 16px 0 16px;
+  }
+} 

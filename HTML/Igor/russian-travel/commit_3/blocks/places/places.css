@@ -1,0 +1,31 @@
+/* стили большого полотна places */
+.places {
+  /* border: 1px solid yellow; */
+  margin: auto;
+  padding: 6px 0 92px;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+   max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    max-width: 720px;
+    padding: 15px 0 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    max-width: 320px;
+    padding: 14px 0 66px;
+  }
+}
+
+/* исправлено по замечанию ревьюера - "От подхода с nth-child() необходимо отказаться, карточки однотипные нет необходимости обращаться к определённо карточке в группе
+CSS файл блока place не может содержать обращение к своим элементам, методология БЭМ очень не рекомендует использовать вложенные селекторы, так как они связывают код." 
+ВСЕ ПСЕВДОКЛАССЫ УБРАЛ*/

@@ -1,0 +1,12 @@
+/* общие стили элемента pharagraphs - параграфы вовнутрь которого будут помещены разделы с текстовым описанием */
+.place__pharagraphs {
+  /* border: 1px solid orange; */
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .place__pharagraphs {
+    margin: 0 16px 0 16px;
+  }
+}

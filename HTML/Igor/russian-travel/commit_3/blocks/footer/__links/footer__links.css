@@ -1,0 +1,16 @@
+/* стили блока навигации с сылками внутри */ 
+.footer__links {
+  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-column-gap: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    justify-content: space-between;
+    grid-row-gap: 32px;   /* Исправлено по замечанию ревьюера - "На 320px не по макету Значение grid-row-gap для footer__links " */
+  }
+}

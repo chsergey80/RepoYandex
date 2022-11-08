@@ -1,0 +1,19 @@
+/* стили блок nav с ссылками Ru En (в шапке ) */
+.header__lang-links {
+  /* border: 1px solid blue; */
+  list-style: none;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 29px 29px;
+  grid-template-rows: 28px;
+  gap: 18px;
+  padding: 18px 0 0; /* внес исправления, так как элемент стал списком */
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-links {
+    grid-template-columns: 22px 22px;
+    grid-template-rows: 20px;
+    padding-top: 14px;
+  }
+}

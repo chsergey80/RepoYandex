@@ -1,0 +1,6 @@
+/* общие стили для всего блока content */
+.content {
+  /* border: 1px solid rgb(153, 51, 144); */
+  margin: auto;
+  display: block;
+}

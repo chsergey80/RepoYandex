@@ -1,0 +1,40 @@
+/* стили шести блоков place внутри полотна places */
+.place {
+  /* border: 1px solid orangered; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+  padding-top: 80px;   
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-template-columns: 440px 456px;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    padding-top: 71px;
+    grid-template-columns: 340px 352px;
+    grid-column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 320px;
+    grid-template-rows: 35px 46px 320px auto;
+    grid-row-gap: 32px;
+    padding-top: 50px;
+  }
+
+}
+
+/* исправлено по замечанию ревьюера - "От подхода с nth-child() необходимо отказаться, карточки однотипные нет необходимости обращаться к определённо карточке в группе
+CSS файл блока place не может содержать обращение к своим элементам, методология БЭМ очень не рекомендует использовать вложенные селекторы, так как они связывают код." 
+ВСЕ ПСЕВДОКЛАССЫ УБРАЛ*/

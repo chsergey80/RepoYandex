@@ -1,0 +1,20 @@
+/* стили ссылок в элементе wepsite */
+.place__link {
+  /* border: 1px solid orange; */
+  color: #fff;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-start;
+  transition: opacity 0.4s linear;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .place__link {
+    margin: 0 0 0 16px;
+  }
+}

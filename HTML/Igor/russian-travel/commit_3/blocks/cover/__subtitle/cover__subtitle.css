@@ -1,0 +1,22 @@
+/* стили подписти subtitle на изображении - ссылке */
+.cover__subtitle {
+  /* border: 1px solid red; */
+  color: #fff;
+  margin: 32px 0 0 0;
+  text-align: center;
+  max-width: 360px;
+  width: 100%;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    margin-top: 16px;
+    line-height: 16px;
+    font-size: 14px;
+    max-width: 264px;
+  }
+}

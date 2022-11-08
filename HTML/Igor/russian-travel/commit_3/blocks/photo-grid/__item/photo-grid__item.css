@@ -1,0 +1,24 @@
+/* стили каждого из двенадцати изображений внутри сетки */
+.photo-grid__item {
+  /*border: 1px solid red; */
+  margin: auto;
+  max-width: 284px;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid__item {
+    max-width: 300px;
+  } 
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid__item {
+    max-width: 352px;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    max-width: 288px;
+  } 
+} 

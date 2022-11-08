@@ -1,0 +1,22 @@
+/* стили надписи URL в элементе website */
+.place__url-heating {
+  /* border: 1px solid violet; */
+  margin: 30px 0 12px 0;
+  color: #AAA;
+  text-transform: uppercase; /* внесено по замечанию ревьюера - "Для текста с верхним регистром необходимо указать правило" */
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__url-heating {
+    margin: 0 0 12px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__url-heating {
+    margin: 0 0 12px 16px;
+  }
+}

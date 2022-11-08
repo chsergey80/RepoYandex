@@ -1,0 +1,4 @@
+/* стили элементов в тегах span - числа (в списке) */
+.intro__list-numbers {
+  font-weight: 400;
+}

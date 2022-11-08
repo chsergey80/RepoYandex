@@ -1,0 +1,21 @@
+/* стили маленькой подписи под картинкой - "ваша полка — верхняя" */
+.lead__caption {
+  /* border: 1px solid rgb(255, 0, 166); */
+  text-transform: uppercase; /* в Figme точных указаний не нашел, но мне показалось, что все большими буквами */
+  line-height: 14px;
+  font-size: 10px;
+  font-weight:400;
+  letter-spacing: 1.5px;
+  margin: 8px 0 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+} 
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+} 

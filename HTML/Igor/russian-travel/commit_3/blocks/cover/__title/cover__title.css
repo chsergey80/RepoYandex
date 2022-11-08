@@ -1,0 +1,21 @@
+/* стили надписи - ссылки "До Байкала на собаках" */
+.cover__title {
+  /* border: 1px solid red; */
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  max-width: 560px;
+  width: 100%;
+  line-height: 76px;
+  font-size: 72px;
+  font-weight: 900;
+  z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    line-height: 35px;
+    font-size: 32px;
+    max-width: 240px;
+  }
+}

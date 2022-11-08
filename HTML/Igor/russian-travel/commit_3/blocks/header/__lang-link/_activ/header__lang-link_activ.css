@@ -1,0 +1,5 @@
+/* Модификатор активного языка */
+/* создано по замечанию ревьюера */
+.header__lang-link_activ {
+  text-decoration: underline;
+}
